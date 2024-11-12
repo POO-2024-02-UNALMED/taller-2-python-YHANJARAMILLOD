@@ -14,7 +14,7 @@ class Auto:
         self.marca = None
         cantidadCreados = 0
         self.registro = 0
-        self.motor = None
+        self.motor = Motor()
         self.asientos = []
 
     def cantidadAsientos(self):
